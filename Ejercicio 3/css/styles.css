@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif)),Helvetica,Arial,sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+
+.logo {
+    width: 200px;
+}   
+
+.divlogo {
+    display: flex;
+    justify-content: center;
+}
+    
+h1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.navegar {
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.text1{
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text2{
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+    box-sizing: border-box;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.enlaces{
+    display: block;
+    margin-left: 37%;
+    margin-top: 3%;  
+    justify-content: center; 
+    margin-right: 37%;
+}
+
+.enlace1 {
+ display: flex;
+ background-color: #405A93;
+ margin-bottom: 5%;
+ border-radius: 25px;
+ box-sizing: border-box;
+ align-items: center;
+ justify-content: center;
+}
+
+.enlace2 {
+display: flex;
+padding-bottom: 1%;
+background-color: white;
+border-radius: 25px;
+box-sizing: border-box;
+align-items: center;
+border: solid rgb(74, 74, 74);
+margin-bottom: 8%;
+align-items: center;
+justify-content: center;
+}
+
+.logo1 {
+width: 40px; 
+
+}
+
+.logo2{
+width: 30px;
+}
+
+h2 {
+    margin-top: 3%;
+    text-align: center;
+}
+.formulario {
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+}
+
+.inputt {
+    display: block;
+    margin-left: 37%;
+    width : 400px;
+    height: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+.correo1 {
+    display: flexbox;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.correo2 {
+    display: flexbox;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.password {
+    display: flexbox;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.name{
+    display: flexbox;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.date {
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+      
+}
+
+span {
+    float: left;
+    margin-left: 37%;
+   
+}
+
+.div-date{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
+}
+
+.dia{
+    flex-direction: column;
+}
+
+.mes {
+    flex-direction: column;
+    text-align: center;
+}
+
+.año{
+    flex-direction: column;
+}
+.name2 {
+    margin-left: 37%;
+}
+
+.genero {
+    width: 50%;
+    margin: 0px 37%;
+    }
+.aceptar_ {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 35%;
+}
+.aceptar {
+    
+    margin: 20px;
+}
+
+
+.navegacion {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+    font-size: 10px;
+}
+
+.marcado {
+    color: #1ED760;
+}
+
+
+.button3 {
+      display: flex;
+      margin: 20px;
+      background-color: #1ED760;
+    padding-inline: 48px;
+      padding: 0.75% ;
+      border-radius: 25px;
+      border: solid #1ED760;
+      font-weight: bold;
+      margin-left: 45%;
+      font-size: medium;
+      cursor: pointer;
+      justify-content: center;
+}
+
+.final {
+    text-align: center;
+}
+
